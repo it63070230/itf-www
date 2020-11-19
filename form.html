@@ -17,17 +17,17 @@ background-color:black;
 <body>
 
 <div class="container">
-  <h2 style="color:white">Add Your Information</h2>
+  <h2 style="color:green">Add Your Information</h2>
   <form action = "insert.php" method = "post" id="CommentForm" >
-    <div class="form-group" style="color:gray">
+    <div class="form-group" style="color:white">
       <label for="name">Name:</label>
       <input type="text" class="form-control" id="CommentForm" placeholder="Enter Name" name="name">
     </div>
-    <div class="form-group" style="color:gray">
+    <div class="form-group" style="color:white">
       <label for="link">Link:</label>
       <input type="text" name = "link" id="idLink" class="form-control" placeholder="Enter Link">
     </div>
-    <div style="color:gray">Comment:</div><br>
+    <div style="color:white">Comment:</div><br>
     <textarea rows="10" cols="150" name = "comment" id="idComment" class="form-control" placeholder="Enter Comment"></textarea><br>  
     <center><a href="show.php"><input type="button" class="btn btn-primary" value="Back"></a>&nbsp;<input type="submit" id="commentBtn" value="Summit" class="btn btn-success"></center>
   </form>
