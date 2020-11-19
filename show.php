@@ -9,7 +9,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <style>
 body {
-  background-color: rgba(172, 207, 246, 1);
+  background-color:black;
 }
 </style>
 </head>
@@ -47,8 +47,8 @@ while($Result = mysqli_fetch_array($res))
 <?php
 mysqli_close($conn);
 ?>
-<a href="https://gobeyondglobal.azurewebsites.net/form.html" class="btn btn-info">add</a>
-<a href="https://gobeyondglobal.azurewebsites.net/form_edit.html" class="btn btn-warning">edit</a>
-<a href="https://gobeyondglobal.azurewebsites.net/form_delete.html" class="btn btn-danger">delete</a>
+<a href="https://gobeyondglobal.azurewebsites.net/form.html" class="btn btn-info">INSERT</a>
+<a href="https://gobeyondglobal.azurewebsites.net/form_edit.html" class="btn btn-warning">EDIT</a>
+<a href="https://gobeyondglobal.azurewebsites.net/form_delete.html" class="btn btn-danger">REMOVE</a>
 </body>
 </html>
