@@ -47,7 +47,7 @@ while($Result = mysqli_fetch_array($res))
 <?php
 mysqli_close($conn);
 ?>
-<a href="https://gobeyondglobal.azurewebsites.net/form.html" class="btn btn-info">INSERT</a>
+<a href="https://gobeyondglobal.azurewebsites.net/form.html" class="btn btn-success">INSERT</a>
 <a href="https://gobeyondglobal.azurewebsites.net/form_edit.html" class="btn btn-warning">EDIT</a>
 <a href="https://gobeyondglobal.azurewebsites.net/form_delete.html" class="btn btn-danger">REMOVE</a>
 </body>
