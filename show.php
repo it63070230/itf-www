@@ -47,8 +47,8 @@ while($Result = mysqli_fetch_array($res))
 <?php
 mysqli_close($conn);
 ?>
-<a href="https://itflab2020.azurewebsites.net/form.html" class="btn btn-info">add</a>
-<a href="https://itflab2020.azurewebsites.net/form_edit.html" class="btn btn-warning">edit</a>
-<a href="https://itflab2020.azurewebsites.net/form_delete.html" class="btn btn-danger">delete</a>
+<a href="https://gobeyondglobal.azurewebsites.net/form.html" class="btn btn-info">add</a>
+<a href="https://gobeyondglobal.azurewebsites.net/form_edit.html" class="btn btn-warning">edit</a>
+<a href="https://gobeyondglobal.azurewebsites.net/form_delete.html" class="btn btn-danger">delete</a>
 </body>
 </html>
