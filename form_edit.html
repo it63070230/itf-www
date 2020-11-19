@@ -1,30 +1,32 @@
-
 <!DOCTYPE html>
 <html>
 <head>
   <title>Edit Form</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <style>
     p.ex1 {
       margin-top: 25px;
     }
+    body {
+  background-color: rgba(172, 207, 246, 1);
+}
   </style>
 </head>
-<body>
   <div class="container">
-    <div class="form">
+    <div class="form" style="color:blue">
       <p class="ex1"><h1><center>Edit</center></h1></p>
+    <p>Name:</p>
     </div>
   <form action = "edit.php" method = "post" id="CommentForm" >
-    <center>Name:</center><br>
-    <center><input type="text" name = "name" id="idName" placeholder="Enter Name"></center><br>
-    <center>Edit Comment:</center><br>
-    <center><textarea rows="10" cols="20" name = "comment" id="idComment" placeholder="Enter New Comment" ></textarea></center><br>
-    <center><a href="show.php"><input type="button" class="btn btn-warning" value="Back"></a>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" id="commentBtn" value="Summit" class="btn btn-success"></center>
+    <center><input type="text" class="form-control" name = "name" id="idName" placeholder="Enter Name"></center><br>
+    <div style="color:blue">Edit Comment:</div><br>
+    <center><textarea rows="10" cols="20" class="form-control" name = "comment" id="idComment" placeholder="Enter New Comment" ></textarea></center><br>
+    <center><a href="show.php"><input type="button" class="btn btn-primary" value="Back"></a>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" id="commentBtn" value="Summit" class="btn btn-success"></center>
   </form>
   </div>
 </body>
