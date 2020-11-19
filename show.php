@@ -16,7 +16,7 @@ body {
 <body>
 <?php
 $conn = mysqli_init();
-mysqli_real_connect($conn, 'peak-555.mysql.database.azure.com', 'SilverShade@peak-555', 'Peak03072544', 'itflab', 3306);
+mysqli_real_connect($conn, 'peak-555.mysql.database.azure.com', 'SilverShade@peak-555', 'Peak0307', 'itflab', 3306);
 if (mysqli_connect_errno($conn))
 {
     die('Failed to connect to MySQL: '.mysqli_connect_error());
